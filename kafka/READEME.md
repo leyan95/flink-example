@@ -1,4 +1,4 @@
-## Windows上启动测试环境
+## Windows上测试Kafka-connect环境
 
 #### 启动zookeepr
 
@@ -25,3 +25,8 @@
 #### 启动消费者
 
 1. kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic001 --from-beginning
+
+## Windows nc-connect
+```shell
+nc -l -p 8888
+```
